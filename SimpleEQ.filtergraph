@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.395" y="0.5692307692307692" useARA="0" uiLastX_Normal="1614"
-          uiLastY_Normal="63" uiopen_Normal="1">
+  <FILTER uid="5" x="0.395" y="0.5692307692307692" useARA="0" uiLastX_Normal="807"
+          uiLastY_Normal="-17" uiopen_Normal="1">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="EthBeats"
             version="1.0.0" file="/Users/ethan/Library/Audio/Plug-Ins/VST3/SimpleEQ.vst3"
-            uniqueId="7abe61c" isInstrument="0" fileTime="18b7e4ec803" infoUpdateTime="18b7ee7f35a"
+            uniqueId="7abe61c" isInstrument="0" fileTime="18b8237f04a" infoUpdateTime="18b823d011c"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acfed781"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -78,14 +78,14 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="6" x="0.5024999999999999" y="0.3" useARA="0" uiLastX_Normal="2094"
-          uiLastY_Normal="31" uiopen_Normal="1">
+  <FILTER uid="7" x="0.50375" y="0.3076923076923077" useARA="0" uiLastX_Normal="850"
+          uiLastY_Normal="401" uiopen_Normal="1">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18b7ee7f35a"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18b823d011d"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="6163676e"/>
-    <STATE>585.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WPr0KUMWYxM2KkQGZg41KLklXxElb48RSuIVZrUFHD81X00VYtQ2buL1as4WXvAGak42Pr8VcjQzaiM2KL81YoMFHPI2aff0KB8VctMVYy8xXxUmaigVd4IiK2ElcgJA0SPQEVbAFYngWRU1Yo8laD8VYywzauAmVRU1Yo8laDEFcg8EDPjzbSUFakMFckQlTkcVZu4lVRU1Yo8laNEVakgvSP.G...........bFo...fA...mQJ...X...f7WB...F....SXPeo+A..3AfmKhubhcDf7WB...F..D...............................................................nTAGA......InkSkcGHRU1Yo8laIHQXlAGaP.fDgU2YtEMHPXkQowVYfDCVU4FcoQGakQF.H.PF.XB.q.PR.DE.YAfW..G.0Afd.rG.8A.g.zH.UB.oAHP.DDPCAvQ.mDfNATT.FEPtAna.EGfwArb.MGfzATc.bC.......HP..........HB..................DP4</STATE>
+    <STATE>585.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WPr0KUMWYxM2KkQGZg41KLklXxElb48RSuIVZrUFHD81X00VYtQ2buL1as4WXvAGak42Pr8VcjQzaiM2KL81YoMFHPI2aff0KB8VctMVYy8xXxUmaigVd4IiK2ElcgJA0SPQEVbAFYngWRU1Yo8laD8VYywzauAmVRU1Yo8laDEFcg8EDPjzbSUFakMFckQlTkcVZu4lVRU1Yo8laNEVakgvSP.G...........MBXDls+A..nB.........FacFr2+G...B.........fn0Yvd+e..v+++++2+G..D....v8+A.......................................b+e.............nTAGAv8+A..InkSkcGHRU1Yo8laIHQXlAGaP.fDgU2YtEMHPXkQowVYfDCVU4FcoQGakQF.H.PF.XB.q.PR.DE.YAfW..G.0Afd.rG.8A.g.zH.UB.oAHP.DDPCAvQ.mDfNATT.FEPtAna.EGfwArb.MGfzATc.bC.......HP..........HB..................DP4</STATE>
     <LAYOUT>
       <INPUTS/>
       <OUTPUTS>
@@ -95,6 +95,6 @@
   </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <CONNECTION srcFilter="7" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="7" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
