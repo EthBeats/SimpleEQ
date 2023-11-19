@@ -139,7 +139,7 @@ SimpleEQAudioProcessorEditor::SimpleEQAudioProcessorEditor (SimpleEQAudioProcess
 		addAndMakeVisible(comp);
 	}
     
-    setSize (600, 400);
+    setSize (1200, 800);
 }
 
 SimpleEQAudioProcessorEditor::~SimpleEQAudioProcessorEditor()
