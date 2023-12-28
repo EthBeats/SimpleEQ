@@ -310,7 +310,10 @@ void ResponseCurveComponent::paint (juce::Graphics& g)
 		responseCurve.lineTo(responseArea.getX() + i, map(mags[i]));
 	}
 	
-	g.setColour(Colours::blue);
+	leftChannelFFTPath.applyTransform(AffineTransform().translation(responseArea.getX(), responseArea.getY()));
+	
+	// set FFT color
+	g.setColour(Colours::skyblue);
 	g.strokePath(leftChannelFFTPath, PathStrokeType(1.f));
 	
 	// set border color
@@ -523,7 +526,7 @@ void SimpleEQAudioProcessorEditor::resized()
     // subcomponents in your editor..
     
     auto bounds = getLocalBounds();
-    float hRatio = 26 / 100.f; //JUCE_LIVE_CONSTANT(33) / 100.f;
+    float hRatio = 33 / 100.f; //JUCE_LIVE_CONSTANT(33) / 100.f;
     auto responseArea = bounds.removeFromTop(bounds.getHeight() * hRatio);
     
     responseCurveComponent.setBounds(responseArea);
