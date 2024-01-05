@@ -16,12 +16,12 @@ void LookAndFeel::drawRotarySlider(juce::Graphics &g, int x, int y, int width, i
 	
 	auto enabled = slider.isEnabled();
 	
-	// fill sliders gray
+	// fill sliders color
 	g.setColour(enabled ? Colour(20u, 20u, 20u) : Colours::darkgrey);
 	g.fillEllipse(bounds);
 	
-	// draw borders white
-	g.setColour(enabled ? Colour(255u, 255u, 255u) : Colour(20u, 20u, 20u));
+	// draw borders color
+	g.setColour(Colour(255u, 255u, 255u));
 	g.drawEllipse(bounds, 1.f);
 	
 	if (auto *rswl = dynamic_cast<RotarySliderWithLabels*>(&slider)) {
@@ -52,10 +52,12 @@ void LookAndFeel::drawRotarySlider(juce::Graphics &g, int x, int y, int width, i
 		r.setSize(strWidth + 4, rswl->getTextHeight() + 2);
 		r.setCentre(bounds.getCentre());
 		
-		g.setColour(Colours::black);
+		// set text background color
+		g.setColour(enabled ? Colours::black : Colours::darkgrey);
 		g.fillRect(r);
 		
-		g.setColour(Colours::white);
+		// set text color
+		g.setColour(enabled ? Colours::white : Colours::lightgrey);
 		g.drawFittedText(text, r.toNearestInt(), juce::Justification::centred, 1);
 	}
 }
